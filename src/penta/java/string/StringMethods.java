@@ -19,7 +19,7 @@ public static void main(String[] args) {
 		 
 		 for(int i=0;i<words.length;i++)
 		 {
-			 System.out.println(words[i]);
+			 System.out.println(words[i]+" "+i);
 		 }
          System.out.println("===========================");
          System.out.println("Formatting String");

@@ -6,8 +6,9 @@ interface Parent1
 }
 interface Parent2 extends Parent1 // for example interface to interface we use extends
 {
-	void property();
+//	void property();
 }
+
 class Child implements Parent1,Parent2 // class with interface we use implements
 {
 
